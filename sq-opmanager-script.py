@@ -32,7 +32,9 @@ def post_to_url(url, payload):
            print("[sq-opmanager-script] Some error occured while processing the event")
 
 if __name__ == "__main__":
-
+    if len(sys.argv) != 11:
+        print_usage()
+        exit(2)
 
     url =sys.argv[1]
     alarmid = sys.argv[2]
