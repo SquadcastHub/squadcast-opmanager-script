@@ -1,0 +1,1 @@
+# squadcast-opmanager-script
